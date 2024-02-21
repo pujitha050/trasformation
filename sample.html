@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>css animation</title>
+	<style>
+		div
+		{
+			background-color: yellow;
+			height: 60px;
+			width: 60px;
+			position: relative;
+			border-radius: 50px;
+
+
+			animation-name: abc;
+			animation-delay: 0s;
+			animation-direction: normal;
+			animation-duration: 2s;
+			animation-timing-function: linear;
+			animation-iteration-count:infinite;
+		}
+		@keyframes abc
+		{
+			0%,100%
+			{
+				top: 0px;
+				left: 0px;
+			}
+			25%
+			{
+				top: 0px;
+				left: 100px;
+			}
+			50%
+			{
+				top: 100px;
+				left:100px;
+			}
+			75%
+			{
+				top: 100px;
+				left: 0px;
+			}
+
+		}
+	</style>
+</head>
+<body>
+	<div></div>
+
+</body>
+</html>
